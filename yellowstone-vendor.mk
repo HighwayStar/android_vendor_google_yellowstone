@@ -34,9 +34,13 @@ PRODUCT_COPY_FILES += \
     vendor/google/yellowstone/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
     vendor/google/yellowstone/proprietary/lib/egl/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \
     vendor/google/yellowstone/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
+    vendor/google/yellowstone/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
     vendor/google/yellowstone/proprietary/lib/hw/ts.default.so:system/lib/hw/ts.default.so \
+    vendor/google/yellowstone/proprietary/lib/libnvoice.so:system/lib/libnvoice.so \
     vendor/google/yellowstone/proprietary/lib/librm31080.so:system/lib/librm31080.so \
     vendor/google/yellowstone/proprietary/lib/librm_ts_service.so:system/lib/librm_ts_service.so \
+    vendor/google/yellowstone/proprietary/lib/libstlport.so:system/lib/libstlport.so \
+    vendor/google/yellowstone/proprietary/lib/libyellalsa.so:system/lib/libyellalsa.so \
     vendor/google/yellowstone/proprietary/lib/para_10_02_00_10.so:system/lib/para_10_02_00_10.so \
     vendor/google/yellowstone/proprietary/lib/para_10_02_00_20.so:system/lib/para_10_02_00_20.so \
     vendor/google/yellowstone/proprietary/lib/para_10_02_00_b0.so:system/lib/para_10_02_00_b0.so \
@@ -70,15 +74,22 @@ PRODUCT_COPY_FILES += \
     vendor/google/yellowstone/proprietary/vendor/lib/libGLESv2_perfhud.so:system/vendor/lib/libGLESv2_perfhud.so \
     vendor/google/yellowstone/proprietary/vendor/lib/libGLESv2_tegra_impl.so:system/vendor/lib/libGLESv2_tegra_impl.so \
     vendor/google/yellowstone/proprietary/vendor/lib/libardrv_dynamic.so:system/vendor/lib/libardrv_dynamic.so \
+    vendor/google/yellowstone/proprietary/vendor/lib/libaudioavp.so:system/vendor/lib/libaudioavp.so \
     vendor/google/yellowstone/proprietary/vendor/lib/libglcore.so:system/vendor/lib/libglcore.so \
     vendor/google/yellowstone/proprietary/vendor/lib/libnvapputil.so:system/vendor/lib/libnvapputil.so \
+    vendor/google/yellowstone/proprietary/vendor/lib/libnvaudioservice.so:system/vendor/lib/libnvaudioservice.so \
+    vendor/google/yellowstone/proprietary/vendor/lib/libnvavp.so:system/vendor/lib/libnvavp.so \
     vendor/google/yellowstone/proprietary/vendor/lib/libnvblit.so:system/vendor/lib/libnvblit.so \
+    vendor/google/yellowstone/proprietary/vendor/lib/libnvcapaudioservice.so:system/vendor/lib/libnvcapaudioservice.so \
+    vendor/google/yellowstone/proprietary/vendor/lib/libnvcapclk.so:system/vendor/lib/libnvcapclk.so \
     vendor/google/yellowstone/proprietary/vendor/lib/libnvcms.so:system/vendor/lib/libnvcms.so \
     vendor/google/yellowstone/proprietary/vendor/lib/libnvcpl.so:system/vendor/lib/libnvcpl.so \
     vendor/google/yellowstone/proprietary/vendor/lib/libnvddk_2d_v2.so:system/vendor/lib/libnvddk_2d_v2.so \
     vendor/google/yellowstone/proprietary/vendor/lib/libnvddk_vic.so:system/vendor/lib/libnvddk_vic.so \
+    vendor/google/yellowstone/proprietary/vendor/lib/libnvfusebypass.so:system/vendor/lib/libnvfusebypass.so \
     vendor/google/yellowstone/proprietary/vendor/lib/libnvglsi.so:system/vendor/lib/libnvglsi.so \
     vendor/google/yellowstone/proprietary/vendor/lib/libnvgr.so:system/vendor/lib/libnvgr.so \
+    vendor/google/yellowstone/proprietary/vendor/lib/libnvmm_utils.so:system/vendor/lib/libnvmm_utils.so \
     vendor/google/yellowstone/proprietary/vendor/lib/libnvrm.so:system/vendor/lib/libnvrm.so \
     vendor/google/yellowstone/proprietary/vendor/lib/libnvrm_graphics.so:system/vendor/lib/libnvrm_graphics.so \
     vendor/google/yellowstone/proprietary/vendor/lib/libnvrmapi_tegra.so:system/vendor/lib/libnvrmapi_tegra.so \
