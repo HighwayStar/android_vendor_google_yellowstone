@@ -17,6 +17,8 @@
 PRODUCT_COPY_FILES += \
     vendor/google/yellowstone/proprietary/bin/gps_select.sh:system/bin/gps_select.sh \
     vendor/google/yellowstone/proprietary/bin/rm_ts_server:system/bin/rm_ts_server \
+    vendor/google/yellowstone/proprietary/bin/sensorhubd:system/bin/sensorhubd \
+    vendor/google/yellowstone/proprietary/bin/sh_updater:system/bin/sh_updater \
     vendor/google/yellowstone/proprietary/etc/firmware/nvavp_aud_ucode.bin:system/etc/firmware/nvavp_aud_ucode.bin \
     vendor/google/yellowstone/proprietary/etc/firmware/nvavp_os_0ff00000.bin:system/etc/firmware/nvavp_os_0ff00000.bin \
     vendor/google/yellowstone/proprietary/etc/firmware/nvavp_os_8ff00000.bin:system/etc/firmware/nvavp_os_8ff00000.bin \
@@ -37,12 +39,15 @@ PRODUCT_COPY_FILES += \
     vendor/google/yellowstone/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
     vendor/google/yellowstone/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
     vendor/google/yellowstone/proprietary/lib/hw/gps.brcm.so:system/lib/hw/gps.brcm.so \
+    vendor/google/yellowstone/proprietary/lib/hw/sensors.tegra.so:system/lib/hw/sensors.tegra.so \
     vendor/google/yellowstone/proprietary/lib/hw/ts.default.so:system/lib/hw/ts.default.so \
     vendor/google/yellowstone/proprietary/lib/libjpegnv.so:system/lib/libjpegnv.so \
     vendor/google/yellowstone/proprietary/lib/libnvoice.so:system/lib/libnvoice.so \
     vendor/google/yellowstone/proprietary/lib/libopencv24_tegra.so:system/lib/libopencv24_tegra.so \
     vendor/google/yellowstone/proprietary/lib/librm31080.so:system/lib/librm31080.so \
     vendor/google/yellowstone/proprietary/lib/librm_ts_service.so:system/lib/librm_ts_service.so \
+    vendor/google/yellowstone/proprietary/lib/libsensors.base.so:system/lib/libsensors.base.so \
+    vendor/google/yellowstone/proprietary/lib/libsensors.iio.lights.so:system/lib/libsensors.iio.lights.so \
     vendor/google/yellowstone/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/google/yellowstone/proprietary/lib/libtbb.so:system/lib/libtbb.so \
     vendor/google/yellowstone/proprietary/lib/libyellalsa.so:system/lib/libyellalsa.so \
@@ -72,6 +77,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/yellowstone/proprietary/lib/para_12_01_03_a0.so:system/lib/para_12_01_03_a0.so \
     vendor/google/yellowstone/proprietary/vendor/bin/glgps_nvidiaTegra2android:system/vendor/bin/glgps_nvidiaTegra2android \
     vendor/google/yellowstone/proprietary/vendor/firmware/bcm43341/fw_bcmdhd.bin:system/vendor/firmware/bcm43341/fw_bcmdhd.bin \
+    vendor/google/yellowstone/proprietary/vendor/indelible/sensor_hub_tgt.bin:system/vendor/indelible/sensor_hub_tgt.bin \
     vendor/google/yellowstone/proprietary/vendor/lib/hw/gralloc.tegra.so:system/vendor/lib/hw/gralloc.tegra.so \
     vendor/google/yellowstone/proprietary/vendor/lib/hw/hwcomposer.tegra.so:system/vendor/lib/hw/hwcomposer.tegra.so \
     vendor/google/yellowstone/proprietary/vendor/lib/libEGL_perfhud.so:system/vendor/lib/libEGL_perfhud.so \
