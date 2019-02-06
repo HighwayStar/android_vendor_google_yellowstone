@@ -136,5 +136,4 @@ PRODUCT_COPY_FILES += \
     vendor/google/yellowstone/proprietary/vendor/lib/libtsechdcp.so:system/vendor/lib/libtsechdcp.so
 
 PRODUCT_PACKAGES += \
-    libmplmpu \
     libnvos
