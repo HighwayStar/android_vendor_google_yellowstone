@@ -76,6 +76,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/yellowstone/proprietary/lib/para_12_01_02_a0.so:system/lib/para_12_01_02_a0.so \
     vendor/google/yellowstone/proprietary/lib/para_12_01_03_a0.so:system/lib/para_12_01_03_a0.so \
     vendor/google/yellowstone/proprietary/vendor/bin/glgps_nvidiaTegra2android:system/vendor/bin/glgps_nvidiaTegra2android \
+    vendor/google/yellowstone/proprietary/vendor/firmware/bcm43341/BCM43341NFCB0_002.001.009.0031.0059_Generic_I2C_NCD_Signed_configdata.ncd:system/vendor/firmware/bcm43341/BCM43341NFCB0_002.001.009.0031.0059_Generic_I2C_NCD_Signed_configdata.ncd \
+    vendor/google/yellowstone/proprietary/vendor/firmware/bcm43341/BCM43341NFCB0_002.001.009.0031.0059_Generic_PreI2C_NCD_Signed_configdata.._.ncd:system/vendor/firmware/bcm43341/BCM43341NFCB0_002.001.009.0031.0059_Generic_PreI2C_NCD_Signed_configdata.._.ncd \
     vendor/google/yellowstone/proprietary/vendor/firmware/bcm43341/fw_bcmdhd.bin:system/vendor/firmware/bcm43341/fw_bcmdhd.bin \
     vendor/google/yellowstone/proprietary/vendor/indelible/sensor_hub_tgt.bin:system/vendor/indelible/sensor_hub_tgt.bin \
     vendor/google/yellowstone/proprietary/vendor/lib/hw/gralloc.tegra.so:system/vendor/lib/hw/gralloc.tegra.so \
