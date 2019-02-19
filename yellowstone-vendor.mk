@@ -75,7 +75,15 @@ PRODUCT_COPY_FILES += \
     vendor/google/yellowstone/proprietary/lib/para_12_01_01_a0.so:system/lib/para_12_01_01_a0.so \
     vendor/google/yellowstone/proprietary/lib/para_12_01_02_a0.so:system/lib/para_12_01_02_a0.so \
     vendor/google/yellowstone/proprietary/lib/para_12_01_03_a0.so:system/lib/para_12_01_03_a0.so \
+    vendor/google/yellowstone/proprietary/vendor/bin/crash-check-arm:system/vendor/bin/crash-check-arm \
+    vendor/google/yellowstone/proprietary/vendor/bin/downloader:system/vendor/bin/downloader \
     vendor/google/yellowstone/proprietary/vendor/bin/glgps_nvidiaTegra2android:system/vendor/bin/glgps_nvidiaTegra2android \
+    vendor/google/yellowstone/proprietary/vendor/bin/icera-crashlogs:system/vendor/bin/icera-crashlogs \
+    vendor/google/yellowstone/proprietary/vendor/bin/icera-feedback:system/vendor/bin/icera-feedback \
+    vendor/google/yellowstone/proprietary/vendor/bin/icera-loader:system/vendor/bin/icera-loader \
+    vendor/google/yellowstone/proprietary/vendor/bin/icera-switcherd:system/vendor/bin/icera-switcherd \
+    vendor/google/yellowstone/proprietary/vendor/bin/icera_log_serial_arm:system/vendor/bin/icera_log_serial_arm \
+    vendor/google/yellowstone/proprietary/vendor/bin/modemnic:system/vendor/bin/modemnic \
     vendor/google/yellowstone/proprietary/vendor/firmware/bcm43341/BCM43341NFCB0_002.001.009.0031.0059_Generic_I2C_NCD_Signed_configdata.ncd:system/vendor/firmware/bcm43341/BCM43341NFCB0_002.001.009.0031.0059_Generic_I2C_NCD_Signed_configdata.ncd \
     vendor/google/yellowstone/proprietary/vendor/firmware/bcm43341/BCM43341NFCB0_002.001.009.0031.0059_Generic_PreI2C_NCD_Signed_configdata.._.ncd:system/vendor/firmware/bcm43341/BCM43341NFCB0_002.001.009.0031.0059_Generic_PreI2C_NCD_Signed_configdata.._.ncd \
     vendor/google/yellowstone/proprietary/vendor/firmware/bcm43341/fw_bcmdhd.bin:system/vendor/firmware/bcm43341/fw_bcmdhd.bin \
@@ -139,6 +147,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/yellowstone/proprietary/vendor/lib/libnvvpp.so:system/vendor/lib/libnvvpp.so \
     vendor/google/yellowstone/proprietary/vendor/lib/libnvwsi.so:system/vendor/lib/libnvwsi.so \
     vendor/google/yellowstone/proprietary/vendor/lib/libphs.so:system/vendor/lib/libphs.so \
+    vendor/google/yellowstone/proprietary/vendor/lib/libril-icera.so:system/vendor/lib/libril-icera.so \
     vendor/google/yellowstone/proprietary/vendor/lib/libtlk_secure_hdcp_up.so:system/vendor/lib/libtlk_secure_hdcp_up.so \
     vendor/google/yellowstone/proprietary/vendor/lib/libtsec_wrapper.so:system/vendor/lib/libtsec_wrapper.so \
     vendor/google/yellowstone/proprietary/vendor/lib/libtsechdcp.so:system/vendor/lib/libtsechdcp.so
